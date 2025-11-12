@@ -1,0 +1,45 @@
+
+.contact {
+    display: flex;
+    flex-direction: column; /* Menumpuk elemen secara vertikal */
+    justify-content: center; /* Tengah secara vertikal */
+    align-items: center; /* Tengah secara horizontal */
+    min-height: 100vh; /* Setidaknya setinggi layar */
+    text-align: center;
+    color: #333;
+}
+
+.contact h1 {
+    font-size: 4rem;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+/* Kontainer untuk ikon-ikon */
+.social-icons {
+    display: flex;
+    gap: 30px; /* Jarak antar ikon */
+}
+
+/* Tautan ikon */
+.social-icons a {
+    color: #333; /* Warna ikon */
+    text-decoration: none;
+    font-size: 2.8rem; /* Ukuran ikon */
+}
+
+/* --- INI EFEK "TWING" --- */
+
+/* 1. Atur transisi pada ikon */
+.social-icons a i {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* 2. Saat tautan di-hover, perbesar ikon (i) di dalamnya */
+.social-icons a:hover img {
+    transform: scale(1.3); /* Perbesar 130% */
+}
+
+.social-icons img{
+    width: 70px;
+}
