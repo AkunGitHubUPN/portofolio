@@ -34,6 +34,14 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding: 20px;
+}
+
+.child1 .hero {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  object-fit: contain;
 }
 
 .child2 {
@@ -83,4 +91,129 @@ nav {
 
 .nav-links a:hover {
   color: #747474; 
+}
+
+@media (max-width: 1024px) {
+  .parent {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .child1 {
+    min-height: 50vh;
+    justify-content: center;
+  }
+
+  .child1 .hero {
+    max-width: 350px;
+  }
+
+  .child2 {
+    min-height: 50vh;
+    justify-content: center;
+  }
+
+  .child2 h1 {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .nav-links {
+    padding-right: 3%;
+  }
+
+  .nav-links li {
+    margin-left: 1.5rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .child1 {
+    min-height: 40vh;
+  }
+
+  .child1 .hero {
+    max-width: 280px;
+  }
+
+  .child2 {
+    min-height: 40vh;
+  }
+
+  .child2 h1 {
+    font-size: 2rem;
+    margin-left: 15px;
+  }
+
+  nav {
+    padding: 0.8rem 0;
+  }
+
+  .nav-links {
+    padding-right: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav-links li {
+    margin-left: 1rem;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .parent {
+    grid-template-rows: auto auto;
+  }
+
+  .child1 {
+    min-height: 35vh;
+    padding: 15px;
+  }
+
+  .child1 .hero {
+    max-width: 200px;
+    max-height: 300px;
+  }
+
+  .child2 {
+    min-height: 35vh;
+  }
+
+  .child2 h1 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    line-height: 1.2;
+  }
+
+  nav {
+    padding: 0.6rem 0;
+  }
+
+  .nav-links {
+    padding-right: 1%;
+    gap: 5px;
+  }
+
+  .nav-links li {
+    margin-left: 0.5rem;
+  }
+
+  .nav-links a {
+    font-size: 0.7rem;
+  }
 }

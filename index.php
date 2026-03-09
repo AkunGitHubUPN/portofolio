@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=5.0, user-scalable=yes">
   <title>3D Card Carousel</title>
   <link rel="stylesheet" href="utama.css">
   <link rel="stylesheet" href="identity.css">
@@ -28,10 +28,10 @@
     <section class="page apa" id="apa">
       <div class="parent">
         <div class="child1">
-          <img class="hero" src="assets/Hero.png" height="90%">
+          <img class="hero" src="assets/Hero.png" alt="Hero">
         </div>
         <div class="child2">
-          <h1>HELLO THERE!<br>I’M NOBEL</h1>
+          <h1>HELLO THERE!<br>I'M NOBEL</h1>
         </div>
       </div>
     </section>
@@ -70,7 +70,7 @@
     <section class="page porto" id="porto">
       <div class="sticky-side">
         <h1>MY PROJECTS</h1>
-        <p>Pekerjaan saya terdahulu.</p>
+        <p>My past projects</p>
         <img src="assets/Group 2.png" alt="">
       </div>
       <div class="moving-side">

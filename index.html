@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=5.0, user-scalable=yes">
+  <title>3D Card Carousel</title>
+  <link rel="stylesheet" href="utama.css">
+  <link rel="stylesheet" href="identity.css">
+  <link rel="stylesheet" href="porto.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+
+  <main class="wadah-besar">
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#apa">HOME</a></li>
+        <li><a href="#identity">IDENTITY</a></li>
+        <li><a href="#porto">PORTOFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <section class="page apa" id="apa">
+      <div class="parent">
+        <div class="child1">
+          <img class="hero" src="assets/Hero.png" alt="Hero">
+        </div>
+        <div class="child2">
+          <h1>HELLO THERE!<br>I'M NOBEL</h1>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="page identity" id="identity">
+      <div class="identity1">
+        <h1>WHAT AM I??</h1>
+        <div class="intro-headline">
+          <span class="static-text">I'M A</span>
+
+          <div class="rotating-text-wrapper" id="wordWrapper">
+            <ul class="word-list" id="wordList">
+              <li>STUDENT</li>
+              <li>PODCASTER</li>
+              <li>GRAPHIC <br>DESIGNER</li>
+              <li>PROJECT <br>MANAGER</li>
+              <li>PUBLIC <br>RELATIONS</li>
+              <li>SYSTEM <br>ANALYST</li>
+              <li>UI/UX <br>DESIGNER</li>
+              <li>VIDEO <br>EDITOR</li>
+              <li>TECH <br>ENTHUSIAST</li>
+              <li>ULTRAMAN, <br>AND MANY MORE</li>
+              <li>STUDENT</li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="click-prompt" id="clickPromptText">That's<br>it??</h3>
+      </div>
+
+      <h1 class="about-me">ABOUT ME</h1>
+
+    </section>
+
+
+    <section class="page porto" id="porto">
+      <div class="sticky-side">
+        <h1>MY PROJECTS</h1>
+        <p>My past projects</p>
+        <img src="assets/Group 2.png" alt="">
+      </div>
+      <div class="moving-side">
+        <div class="card-porto"><img src="assets/porto6.png" alt=""><div class="porto-head"><h1>Jejak Pena</h1><h2>November 2025</h2></div><p>Perancangan dan pengembangan aplikasi diary digital untuk mencatat dan mendokumentasikan perjalanan liburan.</p><button onclick="showPopup(0)">View More</button><div id="popup-0" class="popup-overlay" style="display: none;"><div class="popup-content"><span class="close-btn" onclick="closePopup(0)">&times;</span><h3>Choose Platform:</h3><div class="popup-buttons"><a href="https://drive.google.com/drive/folders/1fO2r3z2q_kRzw7sVHewgrBK_b3w8Q3zu?usp=drive_link" target="_blank" class="popup-button">Google Drive</a><a href="https://github.com/AkunGitHubUPN/MobileTA" target="_blank" class="popup-button">GitHub</a></div></div></div></div><div class="card-porto"><img src="assets/porto7.png" alt=""><div class="porto-head"><h1>Direktori Dosen</h1><h2>Oktober 2025</h2></div><p>Pengembangan WebApp PHP untuk menampilkan data dosen secara lengkap dengan review dan penilaian dari Mahasiswa, juga Admin dengan fungsi moderasi dan CRUD.</p><button><a href="https://github.com/AkunGitHubUPN/DirektoriDosen" target="_blank">View More</a></button></div><div class="card-porto"><img src="assets/porto8.png" alt=""><div class="porto-head"><h1>Pesan Yuk!</h1><h2>September 2025</h2></div><p>Pengembangan mobile app Flutter untuk penjualan makanan secara online.</p><button><a href="https://github.com/AkunGitHubUPN/Kuis_124230114" target="_blank">View More</a></button></div><div class="card-porto"><img src="assets/porto3.png" alt=""><div class="porto-head"><h1>DanaTani</h1><h2>Juli 2025</h2></div><p>Perancangan perangkat lunak pendukung sistem informasi pendanaan usaha mikro di bidang pertanian berbasis mobile application untuk meningkatkan aksesibilitas dan kemudahan pengguna.</p><button onclick="showPopup(3)">View More</button><div id="popup-3" class="popup-overlay" style="display: none;"><div class="popup-content"><span class="close-btn" onclick="closePopup(3)">&times;</span><h3>Choose Platform:</h3><div class="popup-buttons"><a href="https://drive.google.com/drive/u/0/folders/1m8yqj-lHWVNhz_clySPOgV8X2Jx_rvFO" target="_blank" class="popup-button">Google Drive</a><a href="https://www.figma.com/design/P1iM6Nq17L8MCqLVb6Nbwi/Project-1?node-id=163-323&t=5vy88zMYLJb4XIAh-0" target="_blank" class="popup-button">Figma</a></div></div></div></div><div class="card-porto"><img src="assets/porto4.png" alt=""><div class="porto-head"><h1>Andre Barbershop</h1><h2>June 2025</h2></div><p>Perancangan antarmuka WebApp Andre Barbershop, sistem informasi manajemen pemesanan layanan potong rambut secara online.</p><button onclick="showPopup(4)">View More</button><div id="popup-4" class="popup-overlay" style="display: none;"><div class="popup-content"><span class="close-btn" onclick="closePopup(4)">&times;</span><h3>Choose Platform:</h3><div class="popup-buttons"><a href="https://drive.google.com/drive/u/0/folders/18ICVEvH5Uue4fqSR7wFj6K22H4JIPEkl" target="_blank" class="popup-button">Google Drive</a><a href="https://www.figma.com/design/Vkzq7zb8Fq00hvy0IKVITl/RKPL-6--Copy-?m=auto&t=EidLUkCA85KSQcnS-6" target="_blank" class="popup-button">Figma</a></div></div></div></div><div class="card-porto"><img src="assets/porto2.png" alt=""><div class="porto-head"><h1>SIMAK</h1><h2>May 2025</h2></div><p>Perancangan perangkat lunak pendeteksi tingkat kefokusan siswa dalam pembelajaran di kelas berbasis analisis visual menggunakan metode YOLO dan Fuzzy Logic.</p><button><a href="https://drive.google.com/drive/folders/1cYo20FvCuxL8G4I-nCwHO-fUE8beYAOD?usp=sharing" target="_blank">View More</a></button></div><div class="card-porto"><img src="assets/porto1.png" alt=""><div class="porto-head"><h1>SIM - BUTIK</h1><h2>April 2025</h2></div><p>Pembuatan dan perancangan WebApp pendukung efisiensi pengelolaan operasional dan peningkatan kualitas layanan butik dalam menangani pesanan secara fleksibel dan terorganisir.</p><button onclick="showPopup(6)">View More</button><div id="popup-6" class="popup-overlay" style="display: none;"><div class="popup-content"><span class="close-btn" onclick="closePopup(6)">&times;</span><h3>Choose Platform:</h3><div class="popup-buttons"><a href="https://drive.google.com/drive/folders/1W6GuOxWn1gBVEaliYEoH8flnVvP9UlMO?usp=sharing" target="_blank" class="popup-button">Google Drive</a><a href="https://github.com/AkunGitHubUPN/project-rbpl-native" target="_blank" class="popup-button">GitHub</a><a href="https://www.figma.com/design/H4wvwkx0vKLotsEa8G5Eyd/RBPL?node-id=97-177&p=f&t=EidLUkCA85KSQcnS-0" target="_blank" class="popup-button">Figma</a></div></div></div></div><div class="card-porto"><img src="assets/porto5.png" alt=""><div class="porto-head"><h1>Pantau Api</h1><h2>July 2024</h2></div><p>Pembuatan dan perancangan website penyedia informasi tentang kebakaran hutan dan lahan di Indonesia, pelaporan, juga edukasi pencegahan kebakaran.</p><button onclick="showPopup(7)">View More</button><div id="popup-7" class="popup-overlay" style="display: none;"><div class="popup-content"><span class="close-btn" onclick="closePopup(7)">&times;</span><h3>Choose Platform:</h3><div class="popup-buttons"><a href="https://drive.google.com/drive/folders/1_uEvkcrHpDzIS2ZNiF-m7_urjoEwyIps?usp=drive_link" target="_blank" class="popup-button">Google Drive</a><a href="https://github.com/AkunGitHubUPN/SIMB" target="_blank" class="popup-button">GitHub</a></div></div></div></div>      </div>
+    </section>
+
+    <section class="page contact" id="contact">
+        <h1>REACH ME OUT!</h1>
+
+        <div class="social-icons">
+          <a href="https://github.com/AkunGitHubUPN" aria-label="GitHub">
+            <img src="assets/icon1.png" alt="">
+          </a>
+          <a href="https://www.linkedin.com/in/wurjayatma" aria-label="LinkedIn">
+            <img src="assets/icon2.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/wurjayatma" aria-label="Instagram">
+            <img src="assets/icon3.png" alt="">
+          </a>
+        </div>
+    </section>
+  </main>
+
+  <script>
+    function showPopup(index) {
+      document.getElementById('popup-' + index).style.display = 'flex';
+    }
+
+    function closePopup(index) {
+      document.getElementById('popup-' + index).style.display = 'none';
+    }
+
+    document.addEventListener('click', function(event) {
+      if (event.target.classList.contains('popup-overlay')) {
+        event.target.style.display = 'none';
+      }
+    });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
